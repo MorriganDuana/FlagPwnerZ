@@ -10,3 +10,6 @@ We care composed of:
 - CalvlnKleln95
 
 This CTF was from 30th November 2019 to 1st December 2019
+
+Scoreboard : 111/1005
+Points : 6864pts
