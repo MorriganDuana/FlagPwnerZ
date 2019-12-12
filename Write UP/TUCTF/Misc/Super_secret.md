@@ -4,6 +4,6 @@
 
 - `find . -name '*' -exec cat {} \; | grep "TUCTF"`
 
-**Then**
+**Or**
 
 - `find . -name '*' -exec grep -rni 'TUCTF'`
