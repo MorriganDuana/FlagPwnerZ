@@ -1,4 +1,4 @@
-`from pwn import *
+from pwn import *
 
 IP = "chal.tuctf.com"
 PORT = 30506
