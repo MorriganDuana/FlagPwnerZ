@@ -1,4 +1,4 @@
-`from pwn import *
+from pwn import *
 
 cipher = "\xfd\xff\xd3\xfd\xd9\xa3\x93\x35" \
          "\x89\x39\xb1\x3d\x3b\xbf\x8d\x3d" \
@@ -18,4 +18,4 @@ def recover(c):
 for c in cipher:
     clear += recover(c)
 
-print clear`
+print clear
