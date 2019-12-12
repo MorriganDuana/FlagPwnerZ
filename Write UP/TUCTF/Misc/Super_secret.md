@@ -1,6 +1,9 @@
-#solutions
-##1
-`find . -name '*' -exec cat {} \; | grep "TUCTF"`
+# Super Secret
 
-##2
-`find . -name '*' -exec grep -rni 'TUCTF'
+**First**
+
+- `find . -name '*' -exec cat {} \; | grep "TUCTF"`
+
+**Then**
+
+- `find . -name '*' -exec grep -rni 'TUCTF'`
