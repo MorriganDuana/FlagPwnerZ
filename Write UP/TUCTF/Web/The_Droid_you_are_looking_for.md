@@ -11,3 +11,5 @@ Now, we reflew and disallow
 googleagentflagfoundhere.html.
 
 After that, we returned on the web page and the flag was here.
+
+TUCTF{463nt_6006l3_r3p0rt1n6_4_r0b0t}

